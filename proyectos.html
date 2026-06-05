@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos – Catherine Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="navbar-container"></div>
+
+    <section id="proyectos-page">
+        <div class="ellipse-1"></div>
+        <div class="ellipse-2"></div>
+        <div class="proy-inner">
+
+
+            <div class="section-title-row proy-header">
+                <div>
+                    <h1>PROYECTOS DESTACADOS</h1>
+                    <p> Creatividad, intención y detalle en cada experiencia.</p>
+                </div>
+            </div>
+
+            <!-- Filtros -->
+            <div class="proy-filters">
+                <button class="filter-btn active" data-filter="all">
+                    TODOS
+                </button>
+                <button class="filter-btn" data-filter="modelado3d">
+                    <i class="fa-solid fa-cube"></i> MODELADO 3D
+                </button>
+                <button class="filter-btn" data-filter="branding">
+                    <i class="fa-solid fa-pen-nib"></i> BRANDING
+                </button>
+                <button class="filter-btn" data-filter="disenio-visual">
+                    <i class="fa-solid fa-palette"></i> DISEÑO VISUAL
+                </button>
+            </div>
+
+            <!-- ── MODELADO 3D ── -->
+            <div class="proy-category" id="cat-modelado3d">
+                <div class="section-title-row proy-category-header">
+                    <img src="Img/Icono_Proyectos.png" alt="" class="section-icon">
+                    <h2 class="proy-category-title">MODELADO 3D</h2>
+                </div>
+                <div class="proy-grid">
+
+                    <div class="proy-card proy-card--3d" data-embed="https://sketchfab.com/models/9923485527574e18af9ce5d96e9347d7/embed" data-title="1960's Red Vintage Murray Tricycle" role="button" tabindex="0" aria-label="Ver modelo 3D: Triciclo">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/Modelado3D.png" alt="1960's Red Vintage Murray Tricycle">
+                            <div class="badge-3d"><i class="fa-solid fa-cube"></i> Ver en 3D</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">1960's Red Vintage Murray Tricycle</p>
+                            <p class="proy-card-sub">Maya · Adobe Substance</p>
+                        </div>
+                    </div>
+
+                    <div class="proy-card proy-card--3d" data-embed="https://sketchfab.com/models/a48cf9b6240348eeae6f93e4b4c8225f/embed" data-title="Pink Tamagotchi" role="button" tabindex="0" aria-label="Ver modelo 3D: Pink Tamagotchi">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/Tamagotchi.png" alt="Pink Tamagotchi">
+                            <div class="badge-3d"><i class="fa-solid fa-cube"></i> Ver en 3D</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">Pink Tamagotchi</p>
+                            <p class="proy-card-sub">Maya · Adobe Substance</p>
+                        </div>
+                    </div>
+
+                    <div class="proy-card proy-card--3d" data-embed="https://sketchfab.com/models/6a594219386f4128a034d4347f884425/embed" data-title="Deadpool" role="button" tabindex="0" aria-label="Ver modelo 3D: Deadpool">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/DeadPool.png" alt="Deadpool">
+                            <div class="badge-3d"><i class="fa-solid fa-cube"></i> Ver en 3D</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">Deadpool</p>
+                            <p class="proy-card-sub">Maya · Adobe Substance</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ── BRANDING ── -->
+            <div class="proy-category" id="cat-branding">
+                <div class="section-title-row proy-category-header">
+                    <img src="Img/Icono_Proyectos.png" alt="" class="section-icon">
+                    <h2 class="proy-category-title">BRANDING</h2>
+                </div>
+                <div class="proy-grid">
+
+                    <div class="proy-card proy-card--info"
+                         role="button" tabindex="0"
+                         aria-label="Ver proyecto: Azalea Repostería"
+                         data-modal-title="Azalea Repostería"
+                         data-modal-badge="Branding"
+                         data-modal-img="Img/Azalea.png"
+                         data-modal-imgs="Img/Azalea.png,Img/Brand_Azalea.png"
+                         data-modal-desc="Creación de marca personal completa para repostería artesanal: logotipo, paleta de colores, tipografía, patrones decorativos y mockups de aplicación."
+                         data-modal-tools="Illustrator,Photoshop"
+                         data-modal-tags="Identidad visual,Branding">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/Azalea.png" alt="Azalea Repostería">
+                            <div class="badge-info"><i class="fa-solid fa-eye"></i> Ver proyecto</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">Azalea Repostería</p>
+                            <p class="proy-card-sub">Diseño de marca</p>
+                        </div>
+                    </div>
+
+                    <div class="proy-card proy-card--info"
+                         role="button" tabindex="0"
+                         aria-label="Ver proyecto: Figliola del Rey"
+                         data-modal-title="Figliola del Rey"
+                         data-modal-badge="Branding"
+                         data-modal-img="Img/Branding_Figliola.png"
+                         data-modal-imgs="Img/Branding_Figliola.png,Img/Figliola_Mockup.png"
+                         data-modal-desc="Diseño de identidad visual para tienda de ropa: logotipo, tipografía corporativa, paleta de colores y mockups de aplicación en prendas y etiquetas."
+                         data-modal-tools="Illustrator,Photoshop"
+                         data-modal-tags="Identidad visual,Branding,Moda">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/Branding_Figliola.png" alt="Figliola del Rey">
+                            <div class="badge-info"><i class="fa-solid fa-eye"></i> Ver proyecto</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">Figliola del Rey</p>
+                            <p class="proy-card-sub">Diseño de marca</p>
+                        </div>
+                    </div>
+
+                    <div class="proy-card proy-card--info"
+                         role="button" tabindex="0"
+                         aria-label="Ver proyecto: LM Makeup Artist"
+                         data-modal-title="LM Makeup Artist"
+                         data-modal-badge="Branding"
+                         data-modal-img="Img/Makeup.png"
+                         data-modal-imgs="Img/Makeup.png,Img/Logo_LM.png"
+                         data-modal-desc="Diseño de logotipo para artista de maquillaje profesional, con concepto visual elegante y femenino acompañado de su aplicación en mockup."
+                         data-modal-tools="Illustrator,Photoshop"
+                         data-modal-tags="Logotipo,Branding">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/Makeup.png" alt="LM Makeup Artist">
+                            <div class="badge-info"><i class="fa-solid fa-eye"></i> Ver proyecto</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">LM Makeup Artist</p>
+                            <p class="proy-card-sub">Diseño de logotipo</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ── DISEÑO VISUAL ── -->
+            <div class="proy-category" id="cat-disenio-visual">
+                <div class="section-title-row proy-category-header">
+                    <img src="Img/Icono_Proyectos.png" alt="" class="section-icon">
+                    <h2 class="proy-category-title">DISEÑO VISUAL</h2>
+                </div>
+                <div class="proy-grid">
+
+                    <div class="proy-card proy-card--info"
+                         role="button" tabindex="0"
+                         aria-label="Ver proyecto: Álbum Starboy"
+                         data-modal-title="Álbum Starboy"
+                         data-modal-badge="Diseño Visual"
+                         data-modal-img="Img/Album.png"
+                         data-modal-imgs="Img/Album.png,Img/AlbumStarboy_resultado.jpg"
+                         data-modal-desc="Intervención de un fotograma del videoclip para crear una portada de álbum alternativa. Retoque fotográfico, composición tipográfica y tratamiento de color en Photoshop."
+                         data-modal-tools="Photoshop"
+                         data-modal-tags="Diseño editorial,Retoque fotográfico">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/Album.png" alt="Álbum Starboy">
+                            <div class="badge-info"><i class="fa-solid fa-eye"></i> Ver proyecto</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">Álbum Starboy</p>
+                            <p class="proy-card-sub">Fotograma intervenido en Photoshop</p>
+                        </div>
+                    </div>
+
+                    <div class="proy-card proy-card--info"
+                         role="button" tabindex="0"
+                         aria-label="Ver proyecto: Registro"
+                         data-modal-title="Registro"
+                         data-modal-badge="Diseño Visual"
+                         data-modal-img="Img/Registro.png"
+                         data-modal-imgs="Img/Registro.png,Img/Libro_Produccion.png"
+                         data-modal-desc="Diseño de portada del libro de producción de un cortometraje. La fotografía principal fue generada con Gemini y tratada en Photoshop para crear una imagen acorde a la temática del corto."
+                         data-modal-tools="Photoshop,Gemini"
+                         data-modal-tags="Diseño editorial,Cortometraje">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/Registro.png" alt="Registro">
+                            <div class="badge-info"><i class="fa-solid fa-eye"></i> Ver proyecto</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">Registro</p>
+                            <p class="proy-card-sub">Diseño de portada para cortometraje</p>
+                        </div>
+                    </div>
+
+                    <div class="proy-card proy-card--info"
+                         role="button" tabindex="0"
+                         aria-label="Ver proyecto: Fórmula G1"
+                         data-modal-title="Fórmula G1"
+                         data-modal-badge="Diseño Visual"
+                         data-modal-img="Img/FormulaG1.png"
+                         data-modal-imgs="Img/FormulaG1.png,Img/FormulaG1_Resultado.png"
+                         data-modal-desc="Post publicitario para marca de productos de cuidado vehicular. Composición visual, tipografía y mockup final desarrollados en Illustrator y Photoshop."
+                         data-modal-tools="Illustrator,Photoshop"
+                         data-modal-tags="Publicidad,Diseño gráfico">
+                        <div class="proy-card-img-wrap">
+                            <img class="proy-card-img" src="Img/FormulaG1.png" alt="Fórmula G1">
+                            <div class="badge-info"><i class="fa-solid fa-eye"></i> Ver proyecto</div>
+                        </div>
+                        <div class="proy-card-body">
+                            <p class="proy-card-title">Fórmula G1</p>
+                            <p class="proy-card-sub">Diseño publicitario</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <!-- ── Modal Proyecto (Branding / Diseño Visual) ── -->
+    <div id="modal-proyecto" class="modalproy-overlay" role="dialog" aria-modal="true" aria-labelledby="modalproy-title">
+        <div class="modalproy-box">
+            <div class="modalproy-header">
+                <div class="modalproy-header-left">
+                    <p id="modalproy-title" class="modalproy-title"></p>
+                    <span id="modalproy-badge" class="modalproy-badge"></span>
+                </div>
+                <button class="modalproy-close" id="modalproy-close" aria-label="Cerrar">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modalproy-body">
+                <div class="modalproy-img-side">
+                    <img id="modalproy-img" src="" alt="" class="modalproy-img">
+                </div>
+                <div class="modalproy-info-side">
+                    <div class="modalproy-section">
+                        <p class="modalproy-label">Proyecto</p>
+                        <p id="modalproy-desc" class="modalproy-desc"></p>
+                    </div>
+                    <div class="modalproy-section">
+                        <p class="modalproy-label">Herramientas</p>
+                        <div id="modalproy-tools" class="modalproy-tags"></div>
+                    </div>
+                    <div class="modalproy-section">
+                        <p class="modalproy-label">Categorías</p>
+                        <div id="modalproy-tags" class="modalproy-tags"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modalproy-gallery" id="modalproy-gallery"></div>
+        </div>
+    </div>
+    <div id="modal-3d" class="modal3d-overlay" role="dialog" aria-modal="true" aria-labelledby="modal3d-title">
+        <div class="modal3d-box">
+            <div class="modal3d-header">
+                <span id="modal3d-title" class="modal3d-title"></span>
+                <button class="modal3d-close" id="modal3d-close" aria-label="Cerrar visor">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modal3d-viewport">
+                <iframe id="modal3d-iframe"
+                    allowfullscreen
+                    mozallowfullscreen="true"
+                    webkitallowfullscreen="true"
+                    allow="autoplay; fullscreen; xr-spatial-tracking"
+                    src=""
+                    title="Visor 3D Sketchfab">
+                </iframe>
+            </div>
+            <div class="modal3d-footer">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <span>Arrastra para rotar · Scroll para zoom · Doble clic para enfocar</span>
+                <a id="modal3d-extlink" href="#" target="_blank" rel="noopener" class="modal3d-extlink">
+                    Ver en Sketchfab <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
